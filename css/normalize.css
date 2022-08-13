@@ -77,7 +77,7 @@ pre {
    ========================================================================== */
 
 /**
- * Remove the gray background on active links in IE 10.
+ * Remove the gray background on nav__link_active links in IE 10.
  */
 
 a {
@@ -340,7 +340,7 @@ textarea {
     /* 2 */
 }
 
-/* Interactive
+/* Internav__link_active
    ========================================================================== */
 
 /*
