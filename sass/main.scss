@@ -1,3 +1,22 @@
 @import './utils/variables';
+@import './base/common';
+@import './base/section';
+@import './base/container';
+@import './utils/visually-hidden';
+@import './components/hero-button';
+@import './components/title';
+@import './layout/header';
+@import './layout/hero';
+@import './utils/text-transform';
+@import './layout/footer';
+@import './layout/portfolio';
+@import './layout/modal';
+@import './utils/backdrop.is-hidden';
+@import './components/subscribe';
+
 @import './heder';
-@import './footer'
+@import './footer';
+
+@import './components/page-header';
+@import './components/buttons';
+@import './components/logo';
