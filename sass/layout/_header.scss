@@ -56,14 +56,14 @@
   }
 }
 
-.mail-item {
+.mail__item {
   fill: currentColor;
   width: 16px;
   height: 12px;
   margin-right: 10px;
 }
 
-.tel-item {
+.tel__item {
   fill: currentColor;
   width: 10px;
   height: 16px;
@@ -76,7 +76,7 @@
   align-items: center;
 }
 
-.contact-nav {
+.nav__contact {
   display: flex;
   flex-direction: row;
 }
@@ -86,6 +86,6 @@
   padding-top: 32px;
 }
 
-.contact-item + .contact-item {
-  margin-left: 50px;
+.contact__item + .contact__item {
+  margin-left: 30px;
 }
