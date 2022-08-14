@@ -1,25 +1,26 @@
-.list-workcom {
+.workcom__list {
   display: flex;
   gap: 30px;
 }
 
-.title-workcom {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+.workcom__title {
+  @include font(700,36px,42px);
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.16;
   color: var(--secondary-color);
   text-align: center;
 }
 
-.section-workcom {
+.workcom__section {
   padding-top: 0px;
 }
 
-.workcom-thumb {
+.workcom__thumb {
   position: relative;
 }
 
-.workcom-text {
+.workcom__text {
   display: flex;
   align-items: center;
   justify-content: center;

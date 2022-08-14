@@ -1,8 +1,9 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/backdrop.is-hidden";
-@import "./utils/button";
 @import "./utils/text-transform";
+@import "./utils/mixins";
+@import "./utils/button";
 
 @import "./base/common";
 @import "./base/section";
@@ -17,6 +18,7 @@
 @import "./layout/footer";
 @import "./layout/portfolio";
 @import "./layout/modal";
+@import "./layout/page-contact";
 
 @import "./components/title__text";
 @import "./components/buttons";

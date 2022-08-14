@@ -9,7 +9,7 @@
   align-items: baseline;
 }
 
-.footer-conect-title {
+.conect__title {
   text-transform: uppercase;
   color: var(--main-light-color);
   font-weight: 700;
@@ -61,9 +61,10 @@
 .footer__logo {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font (700,26px,31px);
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.19;
   color: var(--main-light-color);
   display: block;
   margin-bottom: 20px;
